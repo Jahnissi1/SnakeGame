@@ -1,2 +1,17 @@
-# SnakeGame
- Snake Game on Raspberry Pi with Sense Controller A snake game built on Raspberry Pi using a sense controller for real-time input. The project features optimized graphical rendering via framebuffer and efficient CPU-GPU communication through the mailbox protocol, delivering smooth gameplay with low-latency controls.
+
+# Snake Game on Raspberry Pi with Sense Controller
+
+## Description
+A snake game developed for Raspberry Pi, utilizing a sense controller for real-time player input. The project features optimized graphical rendering and low-level hardware communication to deliver smooth gameplay with responsive controls.
+
+## Technologies Used
+- C
+- Framebuffer (for graphics rendering)
+- Mailbox (for CPU-GPU communication)
+- Sense Controller (for real-time input)
+
+## Features
+- Real-time gameplay control using a sense controller.
+- Optimized graphical rendering through framebuffer, enhancing visual performance.
+- Efficient CPU-GPU communication using mailbox protocol for low-latency graphics.
+- Collision detection, level transitions, and obstacle handling for dynamic gameplay.
